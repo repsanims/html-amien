@@ -1,0 +1,54 @@
+    @font-face {
+        font-family: 'Raleway_Thin';
+        src: url('./raleway_thin-webfont.woff');
+    }
+
+    @font-face {
+        font-family: 'GoogleSans';
+        src: url('./GoogleSans-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'SanomatSans_Black';
+        src: url('./SanomatSans-Black.ttf');
+    }
+
+    @font-face {
+        font-family: 'SanomatSans_Bold';
+        src: url('./SanomatSans-Bold.ttf');
+    }
+
+
+/* Headings */
+
+    h1 {
+        font-family: "SanomatSans_Black";
+        color: hsl(30, 85%, 60%);
+    }
+    h1.large {
+        font-size: 120pt;
+    }
+
+    h2 {
+        font-family: "SanomatSans_Bold";
+        color: hsl(210, 80%, 40%);
+    }
+
+
+/* Paragraphs */
+
+    p {
+        font-family: Roboto;
+        color: black;
+    }
+
+
+/*  */
+
+    body {
+        background: linear-gradient(0deg, whitesmoke, white);
+    }
+
+    .center {
+        text-align: center;
+    }
